@@ -21,7 +21,7 @@ public class EmailSender {
         // Create a session with authentication
         Session session = Session.getInstance(properties, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("techg3950@gmail.com", "@Techg39506363");
+                return new PasswordAuthentication("your_email@gmail.com", "password");
                 // Replace with your email and password
             }
         });
